@@ -1,7 +1,7 @@
 const https = require("https");
 
 var http = require("http");
-setInterval(() => (http.get("http://all-bot-salmon.herokuapp.com"), 300000));
+setInterval(() => (http.get("http://all-bot-salmon.herokuapp.com"), 3*600000));
 
 // Bot configs read in from environment
 const room_id = process.env.HUBOT_GROUPME_ROOM_ID;
